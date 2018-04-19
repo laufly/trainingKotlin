@@ -44,5 +44,5 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:3.3.0'
     releaseImplementation 'com.readystatesoftware.chuck:library-no-op:1.0.3'
     implementation 'com.jakewharton.rxrelay2:rxrelay:2.0.0'
-
+    implementation files('libs/tbs_sdk_thirdapp_v3.5.0.1004_43500_sharewithdownload_withoutGame_obfs_20170801_113025.jar')
 }

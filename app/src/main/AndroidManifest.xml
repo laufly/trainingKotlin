@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.iyunxiao.training">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.iyunxiao.activity.RxBusActivity"></activity>
+        <activity android:name="com.example.iyunxiao.activity.RxBusActivity" />
+        <activity android:name="com.example.iyunxiao.activity.WebviewActivity" />
+        <activity android:name="com.example.iyunxiao.activity.ReplayActivity" />
+        <activity android:name="com.example.iyunxiao.activity.CodeSendActivity"></activity>
     </application>
 
 </manifest>

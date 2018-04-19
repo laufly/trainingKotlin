@@ -67,6 +67,15 @@ class MainActivity : AppCompatActivity() {
         btn_navigate.setOnClickListener{
             startActivity(Intent(this@MainActivity,RxBusActivity::class.java))
         }
+        btn_webview.setOnClickListener{
+            startActivity(Intent(this@MainActivity,WebviewActivity::class.java))
+        }
+        btn_wxwebview.setOnClickListener{
+            startActivity(Intent(this@MainActivity,ReplayActivity::class.java))
+        }
+        btn_sendcode.setOnClickListener{
+            startActivity(Intent(this@MainActivity,CodeSendActivity::class.java))
+        }
     }
 
     fun startLunchActivity(){
