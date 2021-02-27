@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressView">
+        <attr name="progress_with" format="dimension"/>
+        <attr name="progress" format="float"/>
+        <attr name="max_progress" format="float"/>
+        <attr name="radius"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="start_arc_color" format="color"/>
+        <attr name="end_arc_color" format="color"/>
+    </declare-styleable>
+</resources>

@@ -3,7 +3,8 @@
     package="com.example.iyunxiao.training">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,7 +22,9 @@
         <activity android:name="com.example.iyunxiao.activity.RxBusActivity" />
         <activity android:name="com.example.iyunxiao.activity.WebviewActivity" />
         <activity android:name="com.example.iyunxiao.activity.ReplayActivity" />
-        <activity android:name="com.example.iyunxiao.activity.CodeSendActivity"></activity>
+        <activity android:name="com.example.iyunxiao.activity.CodeSendActivity" />
+        <activity android:name="com.example.iyunxiao.activity.ScreenShot2Activity" />
+         <activity android:name="com.example.iyunxiao.activity.RecordPlayActivity"/>
     </application>
 
 </manifest>

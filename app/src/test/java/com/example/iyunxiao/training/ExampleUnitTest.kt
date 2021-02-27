@@ -18,9 +18,6 @@ class ExampleUnitTest {
 
     @Test
     fun dateConvertTest(){
-        val timestamp = 1414141414141
-        assertEquals(DateUtil.timestamp2Date(timestamp).toString(), Date(timestamp).toString())
-        assertNotEquals(DateUtil.timestamp2Date(timestamp), Date(System.currentTimeMillis()))
 
     }
 }

@@ -5,18 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.iyunxiao.activity.MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <include layout="@layout/title"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
+        android:visibility="visible"
+        android:id="@+id/btnLL"
         android:layout_height="wrap_content">
     <Button
         android:layout_width="match_parent"
@@ -42,10 +36,32 @@
         android:id="@+id/btn_sendcode"
         android:text="sendCode"
         />
-    </LinearLayout>
-    <FrameLayout
+        <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/fl_content"
-        ></FrameLayout>
+            android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_showResult"
+        android:text="边录边放"
+        />
+        <com.example.iyunxiao.widget.ProgressView
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/apb"
+            app:start_arc_color="@android:color/black"
+            />
+
+    </LinearLayout>
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/fl_content"-->
+        <!--android:background="@android:color/holo_blue_bright"-->
+        <!--&gt;-->
+
+    <!--</FrameLayout>-->
+   <com.github.chrisbanes.photoview.PhotoView
+       android:layout_width="match_parent"
+       android:id="@+id/photoview"
+       android:layout_height="wrap_content" />
+
 </android.support.constraint.ConstraintLayout>
