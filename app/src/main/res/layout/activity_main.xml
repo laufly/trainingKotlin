@@ -49,7 +49,13 @@
             android:id="@+id/apb"
             app:start_arc_color="@android:color/black"
             />
-
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_corountine"
+            android:text="协程"
+            />
     </LinearLayout>
     <!--<FrameLayout-->
         <!--android:layout_width="match_parent"-->
@@ -59,9 +65,6 @@
         <!--&gt;-->
 
     <!--</FrameLayout>-->
-   <com.github.chrisbanes.photoview.PhotoView
-       android:layout_width="match_parent"
-       android:id="@+id/photoview"
-       android:layout_height="wrap_content" />
+
 
 </android.support.constraint.ConstraintLayout>

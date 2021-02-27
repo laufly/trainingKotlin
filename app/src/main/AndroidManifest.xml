@@ -3,8 +3,9 @@
     package="com.example.iyunxiao.training">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name="com.example.iyunxiao.activity.CorountineActivity"></activity>
         <activity android:name="com.example.iyunxiao.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +26,7 @@
         <activity android:name="com.example.iyunxiao.activity.ReplayActivity" />
         <activity android:name="com.example.iyunxiao.activity.CodeSendActivity" />
         <activity android:name="com.example.iyunxiao.activity.ScreenShot2Activity" />
-         <activity android:name="com.example.iyunxiao.activity.RecordPlayActivity"/>
+        <activity android:name="com.example.iyunxiao.activity.RecordPlayActivity" />
     </application>
 
 </manifest>

@@ -105,13 +105,11 @@ class MainActivity : AppCompatActivity() {
            // startActivity(Intent(this@MainActivity,RecordPlayActivity::class.java))
 
         }
-        showImage()
+        btn_corountine.setOnClickListener {
+            startActivity(Intent(this@MainActivity,CorountineActivity::class.java))
+        }
     }
 
-
-    fun showImage(){
-        photoview.setImageResource(R.drawable.close)
-    }
 
     fun Dialog.safeShow(width: Int, height: Int) {
         try {
