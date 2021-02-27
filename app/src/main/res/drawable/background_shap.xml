@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  角度必须是45度的倍数，0度从左往右，90度从下往上!-->
+    <gradient
+
+    android:startColor="#FFFFFF"
+
+    android:endColor="#0182FF"
+
+    android:angle="315" />
+
+</shape>
+
